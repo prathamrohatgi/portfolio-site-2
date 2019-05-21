@@ -1,3 +1,8 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 body{
     font-family: "Open Sans", sans-serif;
 }
@@ -120,9 +125,10 @@ header{
 }
 .col-50{
     text-align:center;
+    width:100%;
 }
 .col-50 img{
-    max-width:300px;
+    max-width:100%;
 }
 .margin-prefixer{
     margin:0;
